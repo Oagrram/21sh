@@ -1,1 +1,3 @@
 # 21sh
+
+Let's get down to business! With 21sh, you will have to write a real life implementation of a shell's read, eval, print loop. Using the Termcaps library, you will add a functional and useful line edit to the read part of your shell. Cursor movements, editing, history, multiline, etc. But especially for the eval part, forget the ft_split function that you used in your Minishell to split the command line entered by the user! 21sh will be your first realistic interpreter, and as such, this project will allow you to discover the lexical, syntactic, and semantic analyzes common to interpreters and compilers. With appropriate data structures and processing, adding the management of pipes (|) and redirects (<, <<, >>.>) Will be very simple!
