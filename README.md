@@ -1,3 +1,21 @@
 # 21sh
+21sh project for 42 school. This project consists in coding a shell managing line edition, redirections, heredocs and the history builtin in C.
 
-Let's get down to business! With 21sh, you will have to write a real life implementation of a shell's read, eval, print loop. Using the Termcaps library, you will add a functional and useful line edit to the read part of your shell. Cursor movements, editing, history, multiline, etc. But especially for the eval part, forget the ft_split function that you used in your Minishell to split the command line entered by the user! 21sh will be your first realistic interpreter, and as such, this project will allow you to discover the lexical, syntactic, and semantic analyzes common to interpreters and compilers. With appropriate data structures and processing, adding the management of pipes (|) and redirects (<, <<, >>.>) Will be very simple!
+Le but etait de repartir du minishell (projet precedent) et de le faire evoluer vers un shell plus fonctionnel.
+Au nombre des nouvelles features a ajouter il y a :
+- la gestion du multi-commande.
+- l'ajout des redirections (pipes, chevrons, aggregateurs)
+- l'edition de ligne (avec la bibliotheque termcaps)
+
+Objectifs :
+
+- Duplication de file descriptors.
+- Gestion de groupes de processus.
+- Bibliotheque Termcaps.
+- Bufferisation.
+
+Skills :
+
+- Programmation imperative.
+- Rigueur.
+- Unix.
